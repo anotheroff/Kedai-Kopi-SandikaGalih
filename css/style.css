@@ -193,13 +193,6 @@ body {
 }
 /* Menu section */
 
-.menu,
-.menu h2,
-.menu p,
-.menu .row .menu-card .menu-card-title {
-  background-color: #eee;
-  color: #010101;
-  
 .menu h2,
 .contact h2 {
   margin-bottom: 1rem;
