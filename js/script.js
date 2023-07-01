@@ -13,3 +13,14 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+document.addEventListener("click", function (e) {
+  if (navbarNav.contains(e.target)) {
+    navbarNav.classList.remove("active");
+  }
+});
+
+// funsgi close navbar saat di klik
+window.onscroll = () => {
+  navbarNav.classList.remove("open");
+};
